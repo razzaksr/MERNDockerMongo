@@ -1,0 +1,39 @@
+GET http://localhost:1000/view
+###
+POST http://localhost:1000/new
+content-type: application/json
+
+{
+    "fullname":"Rasheedha R",
+    "contact":876567876,
+    "expert":"Digital Marketting",
+    "experience":10,
+    "commercials":12000
+}
+###
+
+GET http://localhost:1000/659a8acdf1f0ca11e84eab71
+
+###
+
+GET http://localhost:1000/skill/Java Script
+
+###
+PUT http://localhost:1000/
+content-type: application/json
+
+{
+    "_id": "659a8acdf1f0ca11e84eab71",
+    "fullname": "Rasheedha R",
+    "experience": 10,
+    "commercials": 12000,
+    "expert": "Python",
+    "contact": 876567876,
+    "__v": 0
+}
+
+###
+DELETE http://localhost:1000/null
+
+###
+DELETE http://localhost:1000/del/Rasheedha R
